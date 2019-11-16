@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: community-config
+  cloud:
+    config:
+      label: master  #分支
+      server:
+        git:
+          uri: https://github.com/chenyu1394/community-project-config.git   #git地址
+          search-paths: /repo      #路径
+          username: 1394777162@qq.com
+          password: cy5201314@@
+server:
+  port: 8888
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/   #eure注册中心地址

@@ -1,0 +1,7 @@
+spring:
+  cloud:
+    config:
+      uri: http://localhost:8888  #配置中心服务器url
+      name: community-zuul  #本服务名
+      label: master   #分支
+      profile: dev   #前缀

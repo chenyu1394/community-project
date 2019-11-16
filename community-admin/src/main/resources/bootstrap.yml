@@ -1,0 +1,7 @@
+spring:
+  cloud:
+    config:
+      uri: http://192.168.43.175:8888  #配置中心服务器url
+      name: community-admin  #本服务名
+      label: master   #分支
+      profile: prod   #前缀
