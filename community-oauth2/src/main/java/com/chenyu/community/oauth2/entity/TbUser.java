@@ -10,7 +10,7 @@ public class TbUser {
   private String email;
   private java.sql.Timestamp created;
   private java.sql.Timestamp updated;
-
+  private String avatar;
 
   public long getId() {
     return id;
@@ -74,4 +74,11 @@ public class TbUser {
     this.updated = updated;
   }
 
+  public String getAvatar() {
+    return avatar;
+  }
+
+  public void setAvatar(String avatar) {
+    this.avatar = avatar;
+  }
 }

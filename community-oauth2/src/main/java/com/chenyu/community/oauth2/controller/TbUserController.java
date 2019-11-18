@@ -10,6 +10,6 @@ public class TbUserController {
     //获取用户信息
     @RequestMapping("/user")
     public Object currentUserName(Principal principal) {
-        return principal;
+        return principal.getName();
     }
 }
