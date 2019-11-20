@@ -14,5 +14,5 @@ public interface TbPermissionMapper {
     * @param Long 用户id
     * @return TbPermission 权限对象列表
     * */
-    public List<TbPermission> getPermissionByUserId(long id);
+    public List<TbPermission> getPermissionByUserId(long userId);
 }

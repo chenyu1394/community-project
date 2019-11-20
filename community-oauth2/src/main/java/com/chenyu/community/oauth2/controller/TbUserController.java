@@ -7,7 +7,7 @@ import java.security.Principal;
 
 @RestController
 public class TbUserController {
-    //获取用户信息
+    //获取用户信息名
     @RequestMapping("/user")
     public Object currentUserName(Principal principal) {
         return principal.getName();
