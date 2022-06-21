@@ -18,7 +18,7 @@
         <java.version>11</java.version>
         <spring-cloud.version>Greenwich.SR3</spring-cloud.version>
         <hikaricp.version>3.4.1</hikaricp.version>
-        <mysql.version>5.1.48</mysql.version>
+        <mysql.version>8.0.28</mysql.version>
         <mybatis.version>2.1.1</mybatis.version>
     </properties>
 
